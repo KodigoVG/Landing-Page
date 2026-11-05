@@ -23,18 +23,51 @@ ul{
     display: flex;
     margin-top: 60px;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 50px;
     justify-content: center;
-    gap: 95px;
+    gap: 50px;
 
 }   
 
 .text{
-    width: 50%;
+    width: 400px;
     padding: 20px;
 }
 
 h1{
     font-weight: bold;
     color: #000;
+}
+
+.imagen{
+    width: 400px;
+    height: 200px;
+    border:#000 solid 1px;  
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.info-box{
+    width: 100px;
+    height: 100px;
+    border:#000 solid 1px;  
+    margin-bottom: 20px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
